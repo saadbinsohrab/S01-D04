@@ -11,11 +11,13 @@
         }
         legend {
             text-align: center;
+            color:blue;
+            font-weight: bold;
         }
     </style>
 </head>
 <body>
-    <h2>Welcome to Our club</h2>
+    <h2 style="text-align: center; font-size: 30px;" >Welcome to Our club</h2>
     <form>
         <label for="name">Your Name
             <input id="name" type="text" placeholder="Your Name">
@@ -65,10 +67,18 @@
                 Vollyball
             </label>
         </FIeldset>
+        <br>
+        <select>
+            <option value="open">open</option>
+            <option value="closed">Closed</option>
+            <option value="sweeping">Sweeping</option>
+            <option value="serving">Serving</option>
+        </select>
         <fieldset>
             <legend>Special InstrUction</legend>
             <textarea name="" id="" cols="50" rows="3"></textarea>
         </fieldset>
+        <br>
         <input type="reset" value="cancel">
         <input type="submit" value="sabmit">
     </form>
