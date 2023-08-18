@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <style>
+        label {
+            display: block;
+            margin-bottom: 10px;
+        }
+        legend {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h2>Welcome to Our club</h2>
+    <form>
+        <label for="name">Your Name
+            <input id="name" type="text" placeholder="Your Name">
+        </label>
+        <label for="email">Your Email
+            <input id="email" type="email" placeholder="Your Email">
+        </label>
+        <label for="password">Your Password
+            <input id="password" type="password" placeholder="Your Password">
+        </label>
+        <label for="phone">Your Number
+            <input id="phone" type="text" placeholder="Your Number">
+        </label>
+
+        <fieldset>
+            <legend>Choose Your Membership Category </legend>
+            <label for="long">
+                <input type="radio" name="term" id="long">
+                Long Term
+            </label>
+            <label for="mid">
+                <input type="radio" name="term" id="mid">
+                Mid Term
+            </label>
+            <label for="short">
+                <input type="radio" name="term" id="short">
+                Short Term
+            </label>
+            <!-- -------------- NAME SAME THAKTE HOBE ------------------------- -->
+        </fieldset>
+        <FIeldset>
+            <Legend>Your favorite games?</Legend>
+            <label for="cricket">
+                <input type="checkbox" name="game" id="cricket">
+                Cricket
+            </label>
+            <label for="football">
+                <input type="checkbox" name="game" id="football">
+                Football
+            </label>
+            <label for="badminton">
+                <input type="checkbox" name="game" id="badminton">
+                Badminton
+            </label>
+            <label for="vollyball">
+                <input type="checkbox" name="game" id="vollyball">
+                Vollyball
+            </label>
+        </FIeldset>
+        <fieldset>
+            <legend>Special InstrUction</legend>
+            <textarea name="" id="" cols="50" rows="3"></textarea>
+        </fieldset>
+        <input type="reset" value="cancel">
+        <input type="submit" value="sabmit">
+    </form>
+</body>
+</html>
