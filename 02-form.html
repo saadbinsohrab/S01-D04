@@ -28,7 +28,8 @@
     </nav>
 </header>
 <body>
-    <h2 style="text-align: center; font-size: 30px;" >Welcome to Our club</h2>
+    <h2 style="text-align: center; font-size: 30px;"
+    title="if yor join this club then fill in the form" >Welcome to Our club</h2>
     <form>
         <label for="name">Your Name
             <input id="name" type="text" placeholder="Your Name">
@@ -40,7 +41,10 @@
             <input id="password" type="password" placeholder="Your Password">
         </label>
         <label for="phone">Your Number
-            <input id="phone" type="text" placeholder="Your Number">
+            <input id="phone" type="text" maxlength="11" placeholder="Your Number">
+        </label>
+        <label for="age">Your Age
+            <input id="age" type="number" max="35" placeholder="Your Age">
         </label>
 
         <fieldset>
@@ -87,7 +91,7 @@
         </select>
         <fieldset>
             <legend>Special InstrUction</legend>
-            <textarea name="" id="" cols="50" rows="3"></textarea>
+            <textarea maxlength="5" name="" id="" cols="50" rows="3"></textarea>
         </fieldset>
         <br>
         <input type="reset" value="cancel">
